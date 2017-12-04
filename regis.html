@@ -1,0 +1,71 @@
+<!--Client Side-->
+
+<!--Registration page-->
+
+<!DOCTYPE html>
+
+<html>
+
+
+  <head>
+
+    <meta charset="utf-8">
+
+		<title>Registration</title>
+
+		<link href="index.css" type="text/css" rel="stylesheet" />
+
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script src="regis.js" type="text/javascript"></script>
+
+	</head>
+
+
+  <body id="node">
+
+    <div id="main">
+
+    <div class="header">
+
+
+    </div>
+
+
+    <div class="w-form">
+        <div class="box">
+
+
+      <form data-name="Personal Information" id="wf-form" name="wf-form" action = ".php" method = "POST">
+
+
+          <legend><h2>Cheapo Mail Sign Up</h2></legend>
+
+          <input class="w-input" data-name="Name" id="fname" maxlength="256" name="fname" type="text" required placeholder="Enter your first name">
+
+          <input class="w-input" data-name="Name" id="lname" maxlength="256" name="lname" type="text" required placeholder="Enter your last name">
+
+          <input class="w-input" data-name="Username" id="username" maxlength="256" name="username" placeholder="Username" required type="username">
+
+          <input class="w-input" data-name="Password" id="password" maxlength="20" name="password" placeholder="Passowrd" required type="password">
+
+          <input class=" btn btn-primary btn-block btn-large" id="submit" type="submit" name"submit" value="Submit"/>
+
+      </form>
+            </div>
+
+      <div id="result">
+
+      </div>
+
+      </div>
+
+      </div>
+
+  </body>
+
+</html>
